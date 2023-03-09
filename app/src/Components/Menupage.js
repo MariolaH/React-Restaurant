@@ -29,15 +29,20 @@ function Menupage() {
   return (
     <>
       <Navigation />
-      <div className="container">
-        <div className="d-flex row">
+      <div className="container p-3 ">
+        <div className="d-flex row gy-5">
           {items.map((item) => (
             <div
               key={item.id}
               className="card col-4 justify-content-center intro ign-items-center py-5"
               style={{ width: "18rem" }}
             >
-              <img src={item.image} className="card-img-top" />
+              <img
+                src={item.image}
+                height="250"
+                width="150"
+                className="card-img-top"
+              />
               <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
                 <p className="card-text">{item.description}</p>
