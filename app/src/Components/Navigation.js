@@ -25,6 +25,7 @@ function Navigation() {
               D I N N E R &#160; &#160;
             </Nav.Link> */}
           </Nav>
+          <h1>Mona Lisa Bistro</h1>
         </Container>
       </Navbar>
     </>

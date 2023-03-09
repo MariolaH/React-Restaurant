@@ -21,13 +21,27 @@ function Menupage() {
     });
   }, []);
   console.log(items);
+
+  //   create statement filer through item and pull title
+  //    create statement filer through item and pull description
+  //  create statement filer through item and pull price
+
   return (
     <>
       <Navigation />
-      <div className="frame">
-
-
-        
+      <div className="container">
+      <div className="d-flex row">
+        {items.map((item) => (
+          <div key={item.id} className="card col-4 " style={{ width: "18rem" }}>
+            <img src={item.image} className="card-img-top" />
+            <div className="card-body">
+              <h5 className="card-title">{item.title}</h5>
+              <p className="card-text">{item.description}</p>
+              <p className="card-text">{item.price}</p>
+            </div>
+          </div>
+        ))}
+      </div>
       </div>
       <Footer />
     </>

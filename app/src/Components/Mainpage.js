@@ -11,17 +11,17 @@ function Mainpage() {
           <div className="first row">
             
             <div className=" headerimage col d-flex justify-content-center">
-              <img src="./IMAGE/patio.jpg" height="400" width="800" alt="Mona Lisa" />
+              <img src="./IMAGE/patio.jpg" height="500" width="900" alt="Mona Lisa" />
             </div>
             
           </div>
 
           <div className="second row">
-            <div className="col-4"></div>
+            <div className="col-2"></div>
 
-            <div className="quote col-8 justify-content-right">
+            <div className="quote col-10 justify-content-right">
               {" "}
-              <h2>STRAIGHT FROM NONNA'S KITCHEN </h2>{" "}
+              <h2 className="mainQuote">STRAIGHT FROM NONNA'S KITCHEN </h2>{" "}
             </div>
           </div>
 
@@ -40,7 +40,7 @@ function Mainpage() {
               {" "}
               <img
                 src="./IMAGE/Mona Lisa.jpeg"
-                className="homePagePic"
+                className="monaLisa"
                 alt="Mona Lisa"
               />
             </div>
