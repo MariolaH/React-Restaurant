@@ -9,16 +9,15 @@ function Mainpage() {
       <div className="frame">
         <div className="container">
           <div className="first row">
-         
-            <div className=" headerimage col-4">
-              {" "}
-              <img src="./IMAGE/restaurant.jpeg" alt="Mona Lisa" />
             
+            <div className=" headerimage col d-flex justify-content-center">
+              <img src="./IMAGE/patio.jpg" height="400" width="800" alt="Mona Lisa" />
             </div>
+            
           </div>
 
           <div className="second row">
-            <div className="col-4">1 </div>
+            <div className="col-4"></div>
 
             <div className="quote col-8 justify-content-right">
               {" "}
