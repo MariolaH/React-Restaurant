@@ -32,10 +32,11 @@
 .first {
   /* max-height: 200px; */
   width: screen;
-  padding-bottom: 70px;
+  padding-bottom: 120px;
+  padding-top: 40px;
 }
 .second {
-  padding-bottom: 120px;
+  padding-bottom: 150px;
 }
 .third {
   padding-bottom: 80px;
