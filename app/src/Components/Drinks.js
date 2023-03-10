@@ -1,16 +1,16 @@
+import React, { useEffect, useState } from "react";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
-import React, { useEffect, useState } from "react";
 import getData from "./Utilities/Data";
 
-function Menupage() {
-  const API = ` https://www.jsonkeeper.com/b/D0UI`;
-  const [items, setItems] = useState([]);
+function Drinks() {
+  const API = ` https://www.jsonkeeper.com/b/E76G`;
+  const [drinks, setDrinks] = useState([]);
 
   useEffect(() => {
     getData(API).then((data) => {
       console.log(data);
-      setItems(
+      setDrinks(
         data.filter(
           (item) =>
             item.cuisine_type === "Italian" ||
@@ -20,17 +20,17 @@ function Menupage() {
       );
     });
   }, []);
-  console.log(items);
+
 
   return (
     <>
-      <Navigation />
+   <Navigation />
 
-      <h1 className="header">D I N N E R &nbsp; & &nbsp; D E S S E R T S</h1>
+      <h1 className="header">C O C K T A I L S</h1>
 
       <div className="menu container p-3 justify-content-center ">
         <div className="d-flex row gy-5 justify-content-center ">
-          {items.map((item) => (
+          {drinks.map((item) => (
             <div
               key={item.id}
               className="card col-md-3 justify-content-center intro ign-items-center py-5"
@@ -57,9 +57,8 @@ function Menupage() {
           ))}
         </div>
       </div>
-
-      <Footer />
+  <Footer />
     </>
   );
 }
-export default Menupage;
+export default Drinks;

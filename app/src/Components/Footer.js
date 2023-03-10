@@ -18,9 +18,11 @@ function Footer() {
             <svg className="bi me-2" width="40" height="32"></svg>
 
             <div className="d-grid gap-2 p-2">
-              <button className="btn btn-outline-danger btn-lg" type="button">
-                MAKE A RESERVATION
-              </button>
+              <a href="https://www.opentable.com/" target="_blank">
+                <button className="btn btn-outline-danger btn-lg" type="button">
+                  MAKE A RESERVATION
+                </button>
+              </a>
               <div className="p-2"></div>
               <button type="button" className="btn btn-outline-danger btn-lg">
                 EMAIL US!
@@ -28,10 +30,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="col-4 mb-3">
-
-
-          </div>
+          <div className="col-4 mb-3"></div>
 
           <div className="col mb-3"></div>
 

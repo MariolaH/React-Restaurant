@@ -5,6 +5,7 @@ import Menupage from './Components/Menupage';
 import "bootstrap/dist/css/bootstrap.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Drinks from './Components/Drinks';
 
 
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/menupage",
     element: <Menupage />,
+  },
+   {
+    path: "/drinks",
+    element: <Drinks />
   }
   // {
   //   path: "/breakfast",

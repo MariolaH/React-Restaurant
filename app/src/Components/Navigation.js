@@ -15,15 +15,9 @@ function Navigation() {
             <Nav.Link as={Link} to={"/menupage"}>
               M E N U &#160; &#160;
             </Nav.Link>
-            {/* <Nav.Link as={Link} to={"/menupage"}>
-              B R E A K F A ST &#160; &#160;
+            <Nav.Link as={Link} to={"/drinks"}>
+              C O C K T A I L S &#160; &#160;
             </Nav.Link>
-            <Nav.Link as={Link} to={"/menupage"}>
-              L U N C H &#160; &#160;
-            </Nav.Link>
-            <Nav.Link as={Link} to={"/menupage"}>
-              D I N N E R &#160; &#160;
-            </Nav.Link> */}
           </Nav>
           <h1>Mona Lisa Bistro</h1>
         </Container>
