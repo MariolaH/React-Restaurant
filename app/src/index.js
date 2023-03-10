@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Mainpage from './Components/Mainpage';
-import Menupage from './Components/Menupage';
+import Mainpage from './components/Mainpage';
+import Menupage from './components/Menupage';
 import "bootstrap/dist/css/bootstrap.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Drinks from './Components/Drinks';
+import Drinks from './components/Drinks';
 
 
 const router = createBrowserRouter([
