@@ -31,13 +31,11 @@ function Menupage() {
           {items.map((item) => (
             <div
               key={item.id}
-              className="card col-md-3 justify-content-center intro ign-items-center py-5"
+              className="card col-md-3 justify-content-center intro py-5"
               style={{ width: "18rem" }}
             >
               <img
                 src={item.image}
-                // height="290"
-                // width="auto"
                 className="card-img-top"
                 alt="food"
               />
