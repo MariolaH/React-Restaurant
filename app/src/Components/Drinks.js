@@ -10,19 +10,13 @@ function Drinks() {
   useEffect(() => {
     getData(API).then((data) => {
       console.log(data);
-      setDrinks(
-        data.filter(
-          (item) =>
-            item.drink_type === "cocktail"
-        )
-      );
+      setDrinks(data.filter((item) => item.drink_type === "cocktail"));
     });
   }, [API]);
 
-
   return (
     <>
-   <Navigation />
+      <Navigation />
 
       <h1 className="header">C O C K T A I L S</h1>
 
@@ -56,7 +50,7 @@ function Drinks() {
           ))}
         </div>
       </div>
-  <Footer />
+      <Footer />
     </>
   );
 }

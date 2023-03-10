@@ -16,13 +16,6 @@
   /* border: 20%; */
 }
 
-/* .headerimage{
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: auto;
-}  */
-
 .monaLisa {
   height: 250px;
   width: auto;
@@ -54,7 +47,6 @@ h3 {
   margin-left: auto;
 }
 
-
 p {
   line-height: 210%;
 }
@@ -65,14 +57,12 @@ h2 {
   color: rgb(145, 44, 44);
 }
 
-
 /* ------------ menu page ------------ */
 
 .menu {
-
   border: none !important;
   margin-bottom: 10px;
-   padding: left 10px !important;
+  padding: left 10px !important;
 }
 
 .header {

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <div className="container">
-        <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top border-danger border-2">
           <div className="col-4 mb-3">
             <img
               src="./IMAGE/Screen Shot 2023-03-08 at 9.05.56 PM.png"
@@ -18,7 +18,11 @@ function Footer() {
             <svg className="bi me-2" width="40" height="32"></svg>
 
             <div className="d-grid gap-2 p-2">
-              <a href="https://www.opentable.com/" target="_blank">
+              <a
+                rel="noreferrer"
+                href="https://www.opentable.com/"
+                target="_blank"
+              >
                 <button className="btn btn-outline-danger btn-lg" type="button">
                   MAKE A RESERVATION
                 </button>
