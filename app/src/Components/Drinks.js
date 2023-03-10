@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 import getData from "./Utilities/Data";
 
 function Drinks() {
-  const API = ` https://www.jsonkeeper.com/b/E76G`;
+  const API = ` https://www.jsonkeeper.com/b/QJ5V`;
   const [drinks, setDrinks] = useState([]);
 
   useEffect(() => {
@@ -13,13 +13,11 @@ function Drinks() {
       setDrinks(
         data.filter(
           (item) =>
-            item.cuisine_type === "Italian" ||
-            item.cuisine_type === "French" ||
-            item.cuisine_type === "Mediterranean"
+            item.drink_type === "cocktail"
         )
       );
     });
-  }, []);
+  }, [API]);
 
 
   return (
@@ -41,6 +39,7 @@ function Drinks() {
                 // height="290"
                 // width="auto"
                 className="card-img-top"
+                alt="cocktail"
               />
               <div className="card-body">
                 <h5 className="card-title d-flex justify-content-center align-items-center py-3 ">

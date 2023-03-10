@@ -9,11 +9,14 @@ function Mainpage() {
       <div className="frame">
         <div className="container">
           <div className="first row">
-            
             <div className=" headerimage col d-flex justify-content-center">
-              <img src="./IMAGE/patio.jpg" height="600" width="900" alt="Mona Lisa" />
+              <img
+                src="./IMAGE/restaurant1.jpeg"
+                height="600"
+                width="900"
+                alt="Mona Lisa"
+              />
             </div>
-            
           </div>
 
           <div className="second row">
@@ -26,14 +29,14 @@ function Mainpage() {
           </div>
 
           <div className="third row">
-<div className="col-2"></div>
+            <div className="col-2"></div>
             <div className="col-6 ">
               <h3>ABOUT US</h3>
               <p>
                 Mona Lisa Bistro is a family owned and operated traditional
                 Italian Restaurant since 1930. It has been our dream and passion
-                since day one to prepare the best homemade traditional Italian
-                cuisine. 
+                since day one to prepare the best home-made traditional Italian
+                cuisine.
               </p>
             </div>
             <div className="col-4">

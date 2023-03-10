@@ -19,15 +19,13 @@ function Menupage() {
          )
        );
      });
-   }, []);
+   }, [API]);
    console.log(items);
 
   return (
     <>
       <Navigation />
-
       <h1 className="header">D I N N E R &nbsp; & &nbsp; D E S S E R T S</h1>
-
       <div className="menu container p-3 justify-content-center ">
         <div className="d-flex row gy-5 justify-content-center ">
           {items.map((item) => (
@@ -41,6 +39,7 @@ function Menupage() {
                 // height="290"
                 // width="auto"
                 className="card-img-top"
+                alt="food"
               />
               <div className="card-body">
                 <h5 className="card-title d-flex justify-content-center align-items-center py-3 ">
@@ -57,7 +56,6 @@ function Menupage() {
           ))}
         </div>
       </div>
-
       <Footer />
     </>
   );
