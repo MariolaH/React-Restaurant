@@ -64,3 +64,11 @@ h2 {
   font-size: 120px;
   color: rgb(145, 44, 44);
 }
+
+
+/* ------------ menu page ------------ */
+
+.menu {
+
+  border: none !important;
+}

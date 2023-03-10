@@ -1,0 +1,152 @@
+[
+  {
+    "id": 3,
+    "title": "Short Rib Rigatoni",
+    "cuisine_type": "Italian",
+    "category": "Lunch",
+    "description": "Braised beef shortrib, grana padano, garlic breadcrumbs and rigatoni pasta",
+    "price": 49,
+    "spicy_level": 1,
+    "image": "https://laurenfromscratch.com/wp-content/uploads/2022/08/4x5-up-close-short-rib-ragu-rigatoni.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Chicken Alfredo",
+    "cuisine_type": "Italian",
+    "category": "Dinner",
+    "description": "Grilled chicken and fettuccine noodles tossed in a creamy Alfredo sauce",
+    "price": 34,
+    "spicy_level": 1,
+    "image": "https://www.jessicagavin.com/wp-content/uploads/2019/08/chicken-alfredo-8-600x900.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Tortellini Carbonara",
+    "cuisine_type": "Italian",
+    "category": "Dinner",
+    "description": "Parmesan cream, prosciutto, mushrooms, sweet peas and homemade tortellini",
+    "price": 34,
+    "spicy_level": 1,
+    "image": "https://www.cookingforkeeps.com/wp-content/uploads/2020/07/Tortellini-Carbonara-6-1.jpg.webp"
+  },
+  {
+    "id": 16,
+    "title": "Orecchiette Sausage & Broccolini",
+    "cuisine_type": "Italian",
+    "category": "Appetizer",
+    "description": "Crumbled Italian sausage, broccolini in homemade garlic and olive oil sauce",
+    "price": 34,
+    "spicy_level": 0,
+    "image": "https://skinnyspatula.com/wp-content/uploads/2022/08/Sausage_Broccolini_Pasta_1.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Penne alla Vodka",
+    "cuisine_type": "Italian",
+    "category": "Dinner",
+    "description": "Penne pasta tossed in a creamy tomato vodka sauce with grilled chicken and spinach",
+    "price": 29,
+    "spicy_level": 0,
+    "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/2/WU-0104_penne-and-vodka_s4x3.jpg.rend.hgtvcom.616.462.suffix/1449693418767.jpeg"
+  },
+  {
+    "id": 25,
+    "title": "Crispy Calamari",
+    "cuisine_type": "Italian",
+    "category": "Appetizer",
+    "description": "Golden-fried calamari served with a tangy marinara sauce",
+    "price": 18,
+    "spicy_level": 1,
+    "image": "https://www.willcookforsmiles.com/wp-content/uploads/2021/07/Calamari-6.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Pork Chop Calabrese",
+    "cuisine_type": "French",
+    "category": "Appetizer",
+    "description": "Center cut chop pounded thin with herb bread crumb, calabrese peppers, white wine sauce. Side of pasta",
+    "price": 34,
+    "spicy_level": 0,
+    "image": "https://popmenucloud.com/cdn-cgi/image/width%3D1440%2Cheight%3D1440%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/aziebwfs/bb237ad7-ddff-44e3-b7a4-b0907d103cff.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Spaghetti & Meatball",
+    "cuisine_type": "Italian",
+    "category": "Lunch",
+    "description": "Marinara, handmade meatballs, basil, imported cheeses and Tomatoes, fresh mozzarella, EVOO",
+    "price": 29,
+    "spicy_level": 0,
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2020/02/spaghetti-and-meatballs-580x715.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Grilled Octopus",
+    "cuisine_type": "Mediterranean",
+    "category": "Appetizer",
+    "description": "Tender and flavorful grilled octopus served with a lemon garlic sauce",
+    "price": 18,
+    "spicy_level": 1,
+    "image": "https://themaplecuttingboard.com/wp-content/uploads/2021/05/Pacific-Grilled-Octopus-1.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Eggplant Parmesan",
+    "cuisine_type": "Mediterranean",
+    "category": "Dinner",
+    "description": "Lightly breaded Eggplant, marinara, mozzarella cheese",
+    "price": 24,
+    "spicy_level": 1,
+    "image": "https://amindfullmom.com/wp-content/uploads/2016/10/Keto-Eggplant-Parmesan-1-683x1024.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Capellini Pomodoro",
+    "cuisine_type": "Italian",
+    "category": "Lunch",
+    "description": "Angel hair pasta with fresh tomatoes, basil, garlic, and olive oil",
+    "price": 29,
+    "spicy_level": 0,
+    "image": "https://www.italianrecipebook.com/wp-content/uploads/2017/09/pasta-al-pomodoro-recipe.jpg.webp"
+  },
+  {
+    "id": 49,
+    "title": "Garlic Shrimp",
+    "cuisine_type": "Italian",
+    "category": "Dinner",
+    "description": "Sautéed shrimp in a garlic and butter sauce, served with bread",
+    "price": 24,
+    "spicy_level": 1,
+    "image": "https://healthyrecipesblogs.com/wp-content/uploads/2021/09/garlic-butter-shrimp-featured-2023.jpg"
+  },
+  {
+    "id": 57,
+    "title": "Tiramisu",
+    "cuisine_type": "Italian",
+    "category": "Dinner",
+    "description": "Coffee-flavoured dessert, layered with ladyfingers dipped in coffee, with whipped mascarpone cheese and flavoured with cocoa",
+    "price": 12,
+    "spicy_level": 0,
+    "image": "https://insanelygoodrecipes.com/wp-content/uploads/2021/04/Tiramisu-with-Chocolate-and-Mint-683x1024.webp"
+  },
+  {
+    "id": 52,
+    "title": "Cannoli",
+    "cuisine_type": "French",
+    "category": "Appetizer",
+    "description": "Tube-shaped shells of fried pastry dough, filled with a sweet, creamy filling containing ricotta",
+    "price": 12,
+    "spicy_level": 0,
+    "image": "https://www.shugarysweets.com/wp-content/uploads/2011/08/cannoli-recipe-6.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Spumone",
+    "cuisine_type": "Italian",
+    "category": "Lunch",
+    "description": "Molded frozen gelato consisting of three layers: pistachio, cherry, and chocolate gelato with nuts and cherries",
+    "price": 12,
+    "spicy_level": 1,
+    "image": "https://static01.nyt.com/images/2019/07/22/dining/as-spumoni-ice-cream-cake/merlin_158023122_3d451d2c-295a-4dfb-ab52-4e9bd158225f-master768.jpg?w=1280&q=75"
+  }
+]

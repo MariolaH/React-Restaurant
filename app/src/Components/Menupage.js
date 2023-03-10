@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import getData from "./Utilities/Data";
 
 function Menupage() {
-  const API = `https://www.jsonkeeper.com/b/HEP6`;
+  const API = ` https://www.jsonkeeper.com/b/D0UI`;
   const [items, setItems] = useState([]);
 
   useEffect(() => {
@@ -29,8 +29,8 @@ function Menupage() {
   return (
     <>
       <Navigation />
-      <div className="container p-3 ">
-        <div className="d-flex row gy-5">
+      <div className="menu container p-3 justify-content-center ">
+        <div className="d-flex row gy-5 justify-content-center ">
           {items.map((item) => (
             <div
               key={item.id}
@@ -39,14 +39,20 @@ function Menupage() {
             >
               <img
                 src={item.image}
-                height="250"
-                width="150"
+                // height="290"
+                // width="auto"
                 className="card-img-top"
               />
               <div className="card-body">
-                <h5 className="card-title">{item.title}</h5>
-                <p className="card-text">{item.description}</p>
-                <p className="card-text">{item.price}</p>
+                <h5 className="card-title d-flex justify-content-center align-items-center py-3 ">
+                  {item.title}
+                </h5>
+                <p className="card-text d-flex justify-content-center align-items-center py-3">
+                  {item.description}
+                </p>
+                <p className="card-text d-flex justify-content-center align-items-center py-3">
+                  {item.price}
+                </p>
               </div>
             </div>
           ))}
