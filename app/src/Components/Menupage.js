@@ -7,20 +7,20 @@ function Menupage() {
   const API = ` https://www.jsonkeeper.com/b/D0UI`;
   const [items, setItems] = useState([]);
 
-  useEffect(() => {
-    getData(API).then((data) => {
-      console.log(data);
-      setItems(
-        data.filter(
-          (item) =>
-            item.cuisine_type === "Italian" ||
-            item.cuisine_type === "French" ||
-            item.cuisine_type === "Mediterranean"
-        )
-      );
-    });
-  }, []);
-  console.log(items);
+   useEffect(() => {
+     getData(API).then((data) => {
+       console.log(data);
+       setItems(
+         data.filter(
+           (item) =>
+             item.cuisine_type === "Italian" ||
+             item.cuisine_type === "French" ||
+             item.cuisine_type === "Mediterranean"
+         )
+       );
+     });
+   }, []);
+   console.log(items);
 
   return (
     <>
