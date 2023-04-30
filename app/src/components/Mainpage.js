@@ -10,12 +10,7 @@ function Mainpage() {
         <div className="container">
           <div className="first row">
             <div className=" headerimage col d-flex justify-content-center">
-              <img
-                src="./IMAGE/restaurant1.jpeg"
-                height="600"
-                width="900"
-                alt="Mona Lisa"
-              />
+              <img src="./IMAGE/restaurant1.jpeg" alt="Mona Lisa" />
             </div>
           </div>
 
@@ -32,11 +27,17 @@ function Mainpage() {
             <div className="col-2"></div>
             <div className="col-6 ">
               <h3>ABOUT US</h3>
-              <p>
-                Mona Lisa Bistro is a family owned and operated traditional
-                Italian Restaurant since 1930. It has been our dream and passion
-                since day one to prepare the best home-made traditional Italian
-                cuisine.
+              <p className="bio">
+                The roots of our Italian restaurant date back to 1930, when it
+                was first established as a family-owned and operated business.
+                Since then, our passion for preparing the best homemade,
+                traditional Italian cuisine has never wavered. Over the years,
+                we have honed our craft and welcomed countless guests through
+                our doors, all seeking a taste of the authentic Italian
+                experience. From generation to generation, our commitment to
+                quality, family values, and culinary excellence remains
+                unwavering, as we continue to celebrate the rich history and
+                heritage of Italian cuisine.
               </p>
             </div>
             <div className="col-4">

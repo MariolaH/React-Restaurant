@@ -22,6 +22,11 @@
   margin-left: auto;
 }
 
+.headerimage img {
+  height: 40vw;
+  width: 70vw;
+}
+
 .quote {
   justify-content: right;
   align-items: end;
@@ -41,6 +46,11 @@
 .third {
   padding-bottom: 80px;
 }
+
+.bio{
+line-height: 1.75rem;
+}
+
 h3 {
   padding-bottom: 10px;
   color: rgb(145, 44, 44);
@@ -71,4 +81,91 @@ h2 {
   padding-top: 50px;
   padding-bottom: 100px;
   color: rgb(145, 44, 44);
+}
+
+/* ------------ media queries ------------ */
+
+@media (max-width: 768px) {
+  /* .frame {
+    padding: 10px;
+  } */
+  .first.row {
+    margin-top: 20px;
+  }
+  .headerimage img {
+    height: auto;
+    width: 100%;
+  }
+  .col-2 {
+    display: none;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+/* for screens smaller than 768px */
+.navbar {
+font-size: 16px;
+}
+
+.frame {
+margin: 10% !important;
+padding: 20px;
+}
+
+.monaLisa {
+height: 200px;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 80px;
+padding-left: 50px;
+}
+
+h3 {
+font-size: 30px;
+}
+
+p {
+line-height: 150%;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+/* for screens smaller than 480px */
+.navbar {
+font-size: 14px;
+}
+
+.frame {
+margin: 15% !important;
+padding: 10px;
+}
+
+.monaLisa {
+height: 150px;
+margin-bottom: 10px;
+}
+
+h2 {
+font-size: 60px;
+padding-left: 20px;
+}
+
+h3 {
+font-size: 25px;
+}
+
+p {
+line-height: 130%;
+}
 }
